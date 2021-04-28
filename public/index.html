@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Socke.io Client Example</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Nunito", sans-serif;
+            }
+
+            .game {
+                display: flex;
+                flex-direction: row;
+                gap: 3em;
+            }
+        </style>
+
+        <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+        <script defer src="app.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <h1>Usuarios Conectados: <small id="counter">0</small></h1>
+            <div class="game">
+                <button id="sendButton">Enviar</button>
+                <h5>Total:</h5>
+                <div id="clicksTxt">0</div>
+                <h5>ClicksUser:</h5>
+                <div id="clicksTxtUser">0</div>
+                <h5>ClicksMediaUser:</h5>
+                <div id="clicksTxtUserMedia">0</div>
+                <div id="MediaTxt"></div>
+                <button id="sendButtonRestart">Reiniciar</button>
+            </div>
+        </div>
+    </body>
+</html>
