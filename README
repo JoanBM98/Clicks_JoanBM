@@ -3,4 +3,6 @@ UrlGit: https://github.com/JoanBM98/Clicks_JoanBM
 
 
 
-El click users lo he realizado en el cliente ya que sera dependiente de cada uno de los clientes.
+El click users lo he realizado en el cliente ya que sera dependiente de cada uno de los clientes. Otra caracteristica hecha es la media donde obtengo el numero de clicks totales en el servidor y lo divido entre el numero de usuarios que esta tambien en el servidor.
+
+Tambien encontramos que el numero de usuarios esta realizado en el servidor y finalmente el boton lo he hecho en el cliente.
